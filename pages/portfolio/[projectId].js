@@ -1,6 +1,7 @@
-import React from 'react'
+import { useRouter } from 'next/router'
 
 const PortFolioProjectPage = () => {
+  const router = useRouter()
   return (
     <div>
       <h1>The Portfolio Project Page</h1>
